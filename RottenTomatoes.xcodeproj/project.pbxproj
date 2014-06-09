@@ -26,7 +26,7 @@
 		2F5A500419418965002C4276 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A500219418965002C4276 /* MovieDetailViewController.m */; };
 		2F5A500519418965002C4276 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5A500319418965002C4276 /* MovieDetailViewController.xib */; };
 		2F5CE7F11943B97B0017DBA2 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE7F01943B97B0017DBA2 /* Movie.m */; };
-		2F5CE7F319450C3D0017DBA2 /* SynopsisOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CE7F219450C3D0017DBA2 /* SynopsisOverlay.xib */; };
+		2F5CE7F519453A560017DBA2 /* SynopsisOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CE7F419453A560017DBA2 /* SynopsisOverlay.xib */; };
 		315336D59C9D409E9EB7FD13 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E569A5B76A423997284F46 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		2F5A500319418965002C4276 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
 		2F5CE7EF1943B97B0017DBA2 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		2F5CE7F01943B97B0017DBA2 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
-		2F5CE7F219450C3D0017DBA2 /* SynopsisOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SynopsisOverlay.xib; path = ../SynopsisOverlay.xib; sourceTree = "<group>"; };
+		2F5CE7F419453A560017DBA2 /* SynopsisOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SynopsisOverlay.xib; sourceTree = "<group>"; };
 		36E569A5B76A423997284F46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9611383A88D40CB8AF973BC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +133,7 @@
 		2F5A4FBC194170D4002C4276 /* RottenTomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				2F5CE7F419453A560017DBA2 /* SynopsisOverlay.xib */,
 				2F5A4FC5194170D4002C4276 /* AppDelegate.h */,
 				2F5A4FC6194170D4002C4276 /* AppDelegate.m */,
 				2F5A4FC8194170D4002C4276 /* Images.xcassets */,
@@ -146,7 +147,6 @@
 				2F5A500119418965002C4276 /* MovieDetailViewController.h */,
 				2F5A500219418965002C4276 /* MovieDetailViewController.m */,
 				2F5A500319418965002C4276 /* MovieDetailViewController.xib */,
-				2F5CE7F219450C3D0017DBA2 /* SynopsisOverlay.xib */,
 				2F5CE7EF1943B97B0017DBA2 /* Movie.h */,
 				2F5CE7F01943B97B0017DBA2 /* Movie.m */,
 			);
@@ -259,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5CE7F319450C3D0017DBA2 /* SynopsisOverlay.xib in Resources */,
+				2F5CE7F519453A560017DBA2 /* SynopsisOverlay.xib in Resources */,
 				2F5A500519418965002C4276 /* MovieDetailViewController.xib in Resources */,
 				2F5A4FE919417115002C4276 /* MovieListViewController.xib in Resources */,
 				2F5A4FC1194170D4002C4276 /* InfoPlist.strings in Resources */,
